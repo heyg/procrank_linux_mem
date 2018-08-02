@@ -19,7 +19,7 @@ $ make
 To cross compile:
 
 ```
-$ make CROSS_COMPILE=<your cross compile prefix>
+$ make CC=arm-linux-gnueabihf-gcc
 ```
 
 # Usage
